@@ -39,6 +39,9 @@ jobs:
 
     - name: Maven Jar Publish
       uses: eric2788/maven-jar-publish@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'      
       env:
         GITHUB_TOKEN: ${{ github.token }}
-        java-version: '11'
+
