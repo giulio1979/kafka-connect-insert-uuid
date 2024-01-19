@@ -71,5 +71,11 @@
             <url>http://packages.confluent.io/maven/</url>
         </repository>
     </repositories>
-
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/giulio1979/kafka-connect-insert-uuid</url>
+    </repository>
+  </distributionManagement>
 </project>
