@@ -36,3 +36,6 @@ jobs:
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
+
+    - name: Maven Jar Publish
+      uses: eric2788/maven-jar-publish@v3
