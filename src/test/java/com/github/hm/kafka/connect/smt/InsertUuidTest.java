@@ -14,9 +14,8 @@
  * limitations under the License.
  */
 
-package com.github.cjmatta.kafka.connect.smt;
+package com.github.hm.kafka.connect.smt;
 
-import org.apache.kafka.common.config.ConfigDef;
 import org.apache.kafka.connect.data.Schema;
 import org.apache.kafka.connect.data.SchemaBuilder;
 import org.apache.kafka.connect.data.Struct;

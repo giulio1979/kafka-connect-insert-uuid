@@ -10,7 +10,7 @@ Properties:
 Example on how to add to your connector:
 ```
 transforms=insertuuid
-transforms.insertuuid.type=com.github.cjmatta.kafka.connect.smt.InsertUuid$Value
+transforms.insertuuid.type=com.github.hm.kafka.connect.smt.InsertUuid$Value
 transforms.insertuuid.uuid.field.name="uuid"
 ```
 
